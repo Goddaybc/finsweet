@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  font-family: "Poppins", serif;
+  font-size: 16px;
+}
+/* Container of the page to make it at the middle */
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+/* The header logo, navigation area */
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-block: 2rem;
+}
+.logo img {
+  height: 50px;
+}
+nav,
+ul,
+.help-desk {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  color: gray;
+}
+ul {
+  border-right: 4px solid #d5cece;
+  padding-right: 1rem;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: gray;
+}
+
+.phone {
+  color: #000000;
+  font-size: 1.2rem;
+}
+/* The first part of the page */
+.first-article {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* Styling of the left side because the right side is image*/
+.left {
+  font-size: 6rem;
+  align-self: flex-end;
+}
+/* Book a service btn*/
+.btn-book {
+  margin-block: 2.5rem;
+  font-size: 2rem;
+  padding: 1.8rem;
+  background-color: #ff6433;
+  border-radius: 1rem;
+  color: #fff;
+  border: none;
+}
+/* Time of work section */
+.time {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.time img {
+  width: 50px;
+}
+.time p {
+  font-size: 1.5rem;
+  font-size: #939191;
+}
+/* Second section */
+.second-section {
+  background-color: aqua;
+}
+
+/* second section of the page */
+
+.second-section-container {
+  display: flex;
+  justify-content: space-between;
+}
+.services-details {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
